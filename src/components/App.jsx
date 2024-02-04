@@ -32,9 +32,8 @@ export default function App() {
       case 'bad':
         setBadReview(prevBadReview => prevBadReview + 1);
         break;
-        default:
-          console.log(`Unsupported feedback type`);
-      
+      default:
+        console.warn(`Unsupported feedback type: ${feedback}`);
     }
   };
   return (

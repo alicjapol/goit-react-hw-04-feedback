@@ -4,7 +4,7 @@ import Statistics from './Statistics/Statistics';
 import FeedbackOptions from './FeedbackOptions/FeedbackOptions';
 import Notification from './Notification/Notification';
 
-export default function App() {
+function App() {
   const [goodReview, setGoodReview] = useState(0);
   const [neutralReview, setNeutralReview] = useState(0);
   const [badReview, setBadReview] = useState(0);
@@ -58,3 +58,5 @@ export default function App() {
     </div>
   );
 }
+
+export default App;

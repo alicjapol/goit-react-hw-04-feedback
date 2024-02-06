@@ -20,9 +20,9 @@ export default function Statistics({
 }
 
 Statistics.propTypes = {
-  good: PropTypes.number,
-  neutral: PropTypes.number,
-  bad: PropTypes.number,
+  goodReview: PropTypes.number,
+  neutralReview: PropTypes.number,
+  badReview: PropTypes.number,
   total: PropTypes.number,
   positivePercentage: PropTypes.number,
 };

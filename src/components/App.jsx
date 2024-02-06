@@ -36,6 +36,8 @@ export default function App() {
         console.warn(`Unsupported feedback type: ${feedback}`);
     }
   };
+  
+  
   return (
     <div>
       <SectionTitle title="Please leave feedback" />

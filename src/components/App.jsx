@@ -49,7 +49,7 @@ export default function App() {
       {countTotalFeedback() > 0 ? (
         <Statistics
           goodReview={goodReview}
-          neutraReview={neutralReview}
+          neutralReview={neutralReview}
           badReview={badReview}
           total={countTotalFeedback()}
           positivePercentage={countPositiveFeedbackPercentage()}
